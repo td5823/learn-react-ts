@@ -6,13 +6,30 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
+
+// ++++++++++++++++++++++++++++++
+    // "strict": true,
+    // 以下配置等于 "strict": true
+		"strictFunctionTypes": true,
+    "strictBindCallApply": true,
+		"strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "useUnknownInCatchVariables": true,
+// ++++++++++++++++++++++++++++++
+
+// ------------------------------
+    "noImplicitReturns": true,
+		"noUnusedLocals": true,
+// ------------------------------
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
